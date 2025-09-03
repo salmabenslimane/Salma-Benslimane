@@ -8,11 +8,6 @@ body{
 /* styling menu icon */
 /* Make hamburger/menu icon bold too */
 
-.logo-img {
-  height: 70px;   /* adjust as needed */
-  width: auto;    /* keeps proportions */
-}
-
 .nav-menu {
   border: none;
   background-color: #fff;
