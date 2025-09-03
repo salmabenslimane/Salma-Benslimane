@@ -22,12 +22,6 @@ body{
   text-decoration: none;   /* ensure no underline by default */
 }
 
-/* Visible focus state for keyboard users */
-.navbar-nav a:focus {
-  outline: 3px solid rgba(111,52,254,0.18);
-  outline-offset: 4px;
-  border-radius: 4px;
-}
 
 .navbar-nav a:hover{
     color: #fca61f;
@@ -49,7 +43,7 @@ body{
     width: 100%; 
     left: 0; 
   }
-  
+
   /* fixing horizontal flow */
   html, body { overflow-x: hidden; } /* last resort */
 .home img { max-width: 100%; height: auto; display:block; } /* avoid overflowing images */
@@ -82,13 +76,13 @@ body{
 }
 
 .home h2{
-    font-size: 3rem;
+  font-size: clamp(1.6rem, 4vw, 3rem);
     line-height: 4rem;
 }
 .c-orange{
     color: #fca61f;
     font-weight: 700;
-    font-size: 4rem;
+    font-size: clamp(2rem, 6vw, 4rem);
 }
 .home p{
     width: fit-content;
