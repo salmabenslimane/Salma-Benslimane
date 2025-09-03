@@ -55,9 +55,9 @@ body{
 
 .home {
   background: linear-gradient(33deg,
-    #fff8ec 0%,   /* ultra-pale orange (soft tie to #fca61f) */
-    #efe6ff 50%,  /* pale lavender */
-    #d8b9ff 100%  /* light lilac */
+    #fff3e0 0%,   /* pale orange flash */
+    #f7e8ff 40%,  /* pale orchid */
+    #6f34fe 100%  /* brand purple */
   );
   padding: 30px 0 10px 0;
 }
