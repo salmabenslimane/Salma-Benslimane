@@ -49,11 +49,10 @@ body{
     width: 100%; 
     left: 0; 
   }
-
-.navbar-nav a.active {
-  color: #6f34fe;
-  font-weight: 800;
-}
+  
+  /* fixing horizontal flow */
+  html, body { overflow-x: hidden; } /* last resort */
+.home img { max-width: 100%; height: auto; display:block; } /* avoid overflowing images */
 
   /* styling contact btn  */
 .c-btn{
