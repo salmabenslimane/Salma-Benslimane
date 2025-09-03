@@ -3,18 +3,32 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
 }
+
 /* styling menu icon */
-.nav-menu{
-    border: none;
-    background-color: #fff;
-    font-size: 1.5rem;
-    color: #fca61f;
+/* Make hamburger/menu icon bold too */
+.nav-menu {
+  border: none;
+  background-color: #fff;
+  font-size: 1.5rem;
+  color: #fca61f;
+  font-weight: 700; /* <-- bold */
 }
-/* styling navbar links  */
+
+/* Make navbar links bold and improve focus accessibility */
 .navbar-nav a{
-    color: black;
-    position: relative;
+  color: black;
+  position: relative;
+  font-weight: 700;        /* <-- bold the nav links */
+  text-decoration: none;   /* ensure no underline by default */
 }
+
+/* Visible focus state for keyboard users */
+.navbar-nav a:focus {
+  outline: 3px solid rgba(111,52,254,0.18);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
 .navbar-nav a:hover{
     color: #fca61f;
 }
@@ -35,6 +49,12 @@ body{
     width: 100%; 
     left: 0; 
   }
+
+.navbar-nav a.active {
+  color: #6f34fe;
+  font-weight: 800;
+}
+
   /* styling contact btn  */
 .c-btn{
     border: none;
@@ -65,8 +85,6 @@ body{
 .home h2{
     font-size: 3rem;
     line-height: 4rem;
-    color: #3f396d;  /* dark purple/blue */
-
 }
 .c-orange{
     color: #fca61f;
