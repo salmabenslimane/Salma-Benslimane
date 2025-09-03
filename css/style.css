@@ -65,6 +65,8 @@ body{
 .home h2{
     font-size: 3rem;
     line-height: 4rem;
+    color: #3f396d;  /* dark purple/blue */
+
 }
 .c-orange{
     color: #fca61f;
