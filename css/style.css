@@ -378,7 +378,9 @@ footer .link-group a{
     font-size: 1.1rem;
     margin-top: 1rem;
 }
-
+footer .link-group a:hover{
+    color: #fca61f;
+}
 .social-links button{
     border: none;
     margin-right: 1rem;
