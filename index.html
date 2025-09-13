@@ -783,14 +783,16 @@
     <!-- contact section starts -->
     <section class="contact py-5" id="contact">
       <div class="heading text-center">
-        <small>Get in Touch</small>
-        <h3>Any Questions? Feel Free to Contact</h3>
+        <h3>Feel Free to Contact Me</h3>
       </div>
       <div class="row justify-content-evenly mt-5">
         <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
           <div class="row justify-content-evenly">
             <div class="col-1">
               <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>Paris, France</p>
             </div>
           </div>
           <div class="row justify-content-evenly">
@@ -817,49 +819,46 @@
               <p>salmabenslimane.com</p>
             </div>
           </div>
-        </div>
-        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
-          <div class="contact-form">
-            <div class="mb-3">
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Name"
-              />
-            </div>
-            <div class="mb-3">
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="E-mail"
-              />
-            </div>
-            <div class="mb-3">
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Mobile No."
-              />
-            </div>
-            <div class="mb-3">
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                placeholder="Message"
-                rows="5"
-              ></textarea>
-            </div>
-            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
-              Submit
-            </button>
-          </div>
-        </div>
+       </div>
+<div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+  <div class="contact-form">
+    <form action="mailto:salmabenslimane33@gmail.com" method="post" enctype="text/plain">
+      <div class="mb-3">
+        <input
+          type="text"
+          class="form-control"
+          name="Name"
+          placeholder="Name"
+          required
+        />
       </div>
-    </section>
-    <!-- contact section ends here -->
+      <div class="mb-3">
+        <input
+          type="email"
+          class="form-control"
+          name="Email"
+          placeholder="E-mail"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <textarea
+          class="form-control"
+          name="Message"
+          placeholder="Message"
+          rows="5"
+          required
+        ></textarea>
+      </div>
+      <button type="submit" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
+</div>
+</section>
+<!-- contact section ends here -->
 
       <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
     <button
