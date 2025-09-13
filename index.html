@@ -267,11 +267,25 @@
         
       </div>
 
+
   <div class="container text-center mt-4">
-    <h5>Days I code</h5>
-        <!-- GitHub contributions calendar -->
-<img src="https://ghchart.rshah.org/salmabenslimane?nocache=1" alt="Days I code" />
-  </div>
+  <h5>Days I code</h5>
+  <img id="github-chart" src="" alt="Days I code" style="max-width:100%; height:auto;" />
+</div>
+
+<script>
+  function loadGithubChart() {
+    const img = document.getElementById('github-chart');
+    const timestamp = new Date().getTime(); // cache-buster
+    img.src = `https://ghchart.rshah.org/salmabenslimane?nocache=1&t=${timestamp}`;
+  }
+
+  // Load on page load
+  window.addEventListener('DOMContentLoaded', loadGithubChart);
+
+  // Optional: reload every 5 minutes (300000 ms)
+  // setInterval(loadGithubChart, 300000);
+</script>
 
 
       <div id="myBtnContainer" class="text-center mt-4">
