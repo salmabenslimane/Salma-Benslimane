@@ -358,14 +358,14 @@ body{
 
 /* footer section starts */
 footer{
-    background-color: #6f34fe;
+    background-color: #c7b1fa;
 }
 
 footer .link-group a{
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
-    color: #000000;
+    color: #393737;
     font-size: 1.1rem;
     margin-top: 1rem;
 }
