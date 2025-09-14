@@ -569,27 +569,30 @@
 
     <!-- creative section begins here -->
 <style>
-  /* Wrapper for embeds */
+  /* Common wrapper for both embeds */
   .creative-embed {
     position: relative;
     width: 100%;
-    max-width: 500px;   /* control max size */
-    aspect-ratio: 9 / 16; /* force portrait video look */
+    max-width: 400px;   /* control size (change as you like) */
+    height: 700px;      /* fixed height for consistency */
     overflow: hidden;
-    border-radius: 12px; /* rounded corners */
+    border-radius: 12px;
     margin: 0 auto;
   }
 
+  /* Force both Instagram + TikTok to fill the wrapper */
   .creative-embed iframe,
   .creative-embed blockquote {
-    position: absolute;
+    position: absolute !important;
     top: 0;
     left: 0;
     width: 100% !important;
     height: 100% !important;
     border: none !important;
-    background: transparent !important; /* remove white bg */
+    background: transparent !important;
     box-shadow: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 </style>
 
@@ -628,9 +631,6 @@
           <blockquote class="tiktok-embed" 
             cite="https://www.tiktok.com/@salmagirlie/video/7535594882392526086" 
             data-video-id="7535594882392526086">
-            <section> 
-              <a target="_blank" title="@salmagirlie" href="https://www.tiktok.com/@salmagirlie?refer=embed">@salmagirlie</a> 
-            </section> 
           </blockquote> 
         </div>
         <script async src="https://www.tiktok.com/embed.js"></script>
