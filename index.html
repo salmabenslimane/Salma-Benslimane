@@ -567,6 +567,32 @@
     </section>
     <!-- testimonial ends here -->
 
+    <!-- creative section begins here -->
+<style>
+  /* Wrapper for embeds */
+  .creative-embed {
+    position: relative;
+    width: 100%;
+    max-width: 500px;   /* control max size */
+    aspect-ratio: 9 / 16; /* force portrait video look */
+    overflow: hidden;
+    border-radius: 12px; /* rounded corners */
+    margin: 0 auto;
+  }
+
+  .creative-embed iframe,
+  .creative-embed blockquote {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    background: transparent !important; /* remove white bg */
+    box-shadow: none !important;
+  }
+</style>
+
 
 <section class="blog mt-5 pb-5" id="blog">
   <div class="heading text-center pt-5">
@@ -578,41 +604,32 @@
     <div class="row g-5 align-items-start">
       
       <!-- LEFT SIDE (Instagram) -->
-      <div class="col-md-6">
+      <div class="col-md-6 text-center">
         <p>
           With a deep passion for music, I am an artist who enjoys singing and playing the guitar. 
           In fact, I had the privilege of performing at the 
           <b>Cérémonie de Remise des Diplômes 2023</b>.
         </p>
-        <div style="display: flex; justify-content: center;">
+        <div class="creative-embed">
           <blockquote class="instagram-media" data-instgrm-captioned
             data-instgrm-permalink="https://www.instagram.com/reel/Cy1gqDhrKsF/?utm_source=ig_embed&utm_campaign=loading"
-            data-instgrm-version="14"
-            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%;">
-          </blockquote>
+            data-instgrm-version="14"></blockquote>
         </div>
         <script async src="//www.instagram.com/embed.js"></script>
       </div>
 
       <!-- RIGHT SIDE (TikTok) -->
-      <div class="col-md-6">
+      <div class="col-md-6 text-center">
         <p>
           I also enjoy learning new instruments, such as the piano. 
           I love to express myself through notes and melodies.
         </p>
-        <div style="display: flex; justify-content: center;">
+        <div class="creative-embed">
           <blockquote class="tiktok-embed" 
             cite="https://www.tiktok.com/@salmagirlie/video/7535594882392526086" 
-            data-video-id="7535594882392526086" 
-            style="max-width: 605px;min-width: 325px;">
+            data-video-id="7535594882392526086">
             <section> 
               <a target="_blank" title="@salmagirlie" href="https://www.tiktok.com/@salmagirlie?refer=embed">@salmagirlie</a> 
-              <a title="piano" target="_blank" href="https://www.tiktok.com/tag/piano?refer=embed">#piano</a> 
-              <a title="pianocover" target="_blank" href="https://www.tiktok.com/tag/pianocover?refer=embed">#pianocover</a> 
-              <a title="fyy" target="_blank" href="https://www.tiktok.com/tag/fyy?refer=embed">#fyy</a> 
-              <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> 
-              <a title="music" target="_blank" href="https://www.tiktok.com/tag/music?refer=embed">#music</a> 
-              <a target="_blank" title="♬ original sound - salma" href="https://www.tiktok.com/music/original-sound-7535594882086275845?refer=embed">♬ original sound - salma</a> 
             </section> 
           </blockquote> 
         </div>
@@ -622,7 +639,8 @@
     </div>
   </div>
 </section>
-    <!-- creative section ends here -->
+
+<!-- creative section ends here -->
 
     <!-- contact section starts here -->
 <section class="contact mt-5 pt-5" id="contact">
