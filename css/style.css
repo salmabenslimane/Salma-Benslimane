@@ -357,12 +357,10 @@ body{
 }
 
 /* Creative Side Section Background */
-#creative {
+#blog {
   background-color: #ffffff; /* white background */
-  padding: 60px 0;           /* vertical padding */
+  padding: 60px 0;           /* optional: add vertical padding */
 }
-
-
 
 
 
