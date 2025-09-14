@@ -227,6 +227,12 @@ body{
 }
 
 /* portfolio section starts */
+.portfolio{
+    background-color: #6f34fe;
+    padding: 50px 0;
+}
+
+
 #myBtnContainer{
     margin-bottom: 45px;
 }
