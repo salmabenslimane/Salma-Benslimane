@@ -7,6 +7,12 @@ body{
 /* styling menu icon */
 /* Make hamburger/menu icon bold too */
 
+/* Navbar links use the same font as the home section */
+#navbar-top .nav-link,
+#navbar-top .navbar-brand {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .nav-menu {
   border: none;
   background-color: #fff;
