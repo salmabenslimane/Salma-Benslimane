@@ -21,7 +21,6 @@ body{
   color: black;
   position: relative;
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;        /* <-- bold the nav links */
   text-decoration: none;   /* ensure no underline by default */
 }
 
