@@ -355,6 +355,19 @@ body{
     width: 80%;
 }
 
+/* Creative Side Section Background */
+#creative {
+  background-color: #ffffff; /* white background */
+  padding: 60px 0;           /* vertical padding */
+}
+
+/* Optional: add some visual style */
+#creative .container {
+  border-radius: 12px;                     /* rounded corners */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* subtle shadow */
+}
+
+
 /* footer section starts */
 footer{
      background: linear-gradient(33deg,
