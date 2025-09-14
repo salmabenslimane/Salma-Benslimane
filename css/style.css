@@ -373,6 +373,18 @@ body{
     margin: 0 auto;
   }
 
+  #creative {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#creative .heading {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+
   /* Force both Instagram + TikTok to fill the wrapper */
   .creative-embed iframe,
   .creative-embed blockquote {
