@@ -362,11 +362,8 @@ body{
   padding: 60px 0;           /* vertical padding */
 }
 
-/* Optional: add some visual style */
-#creative .container {
-  border-radius: 12px;                     /* rounded corners */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* subtle shadow */
-}
+
+
 
 
 /* footer section starts */
