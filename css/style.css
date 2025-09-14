@@ -255,6 +255,7 @@ body{
 }
 
 /* testimonial section starts */
+
 .testimonial img:hover{
     transform: scale(1.2,1.2);
     transition-duration: 1s;
