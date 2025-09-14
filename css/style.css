@@ -362,6 +362,31 @@ body{
   padding: 60px 0;           /* optional: add vertical padding */
 }
 
+ /* Common wrapper for both embeds */
+  .creative-embed {
+    position: relative;
+    width: 100%;
+    max-width: 400px;   /* control size (change as you like) */
+    height: 700px;      /* fixed height for consistency */
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 0 auto;
+  }
+
+  /* Force both Instagram + TikTok to fill the wrapper */
+  .creative-embed iframe,
+  .creative-embed blockquote {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 
 /* footer section starts */
 footer{
