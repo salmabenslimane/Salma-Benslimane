@@ -403,35 +403,38 @@
     </section>
     <!-- portfolio section ends here -->
 
-
 <!-- testimonial section starts -->
 <section class="testimonial mt-5 pt-5" id="testimonial">
-  <div class="row justify-content-center"> <!-- center the content -->
-
-    <!-- Carousel centered -->
-    <div class="col-md-8 col-10 mt-5" data-aos="slide-left"> <!-- wider column to fill space -->
-      <div class="heading text-center">
+  <div class="row justify-content-evenly">
+    
+    <!-- Left image -->
+    <div class="col-md-4 col-10" data-aos="slide-right">
+      <img src="images/airfr me pic.jpg" class="img-fluid" alt="Testimonials Image" />
+    </div>
+    
+    <!-- Right carousel -->
+    <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
+      <div class="heading">
         <h3>My Recommendations</h3>
         <small>What my internships' tutors have said about me</small>
 
         <!-- Bootstrap Carousel -->
-        <div id="carouselExampleControls" class="carousel slide mt-4" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
-
+            
             <div class="carousel-item active">
-              <div class="row justify-content-center">
+              <div class="row justify-content-evenly">
                 <div class="col-2 text-center">
                   <i class="bi bi-quote"></i>
                 </div>
                 <div class="col-10">
                   <p class="text-muted">
-                    Throughout her mission, she demonstrated great autonomy, rigor, 
-                    and discipline, as well as excellent analytical skills. She adapted perfectly 
-                    to the demands of the airport environment and was able to establish high-quality 
-                    working relationships with all internal teams.
+                    Throughout her mission, she demonstrated great autonomy, rigor, and discipline, as well as excellent analytical skills. She adapted perfectly to the demands of the airport environment and was able to establish high-quality working relationships with all internal teams.
                   </p>
                   <h4>Youval Ouaknine</h4>
                   <small class="fs-6 text-muted">Head of Department, Traffic Air France Ground Handling</small>
+                  
+                  <!-- Read More / Download PDF -->
                   <div class="mt-3">
                     <a href="images/youval.pdf" 
                        download="Recommendation_Youval_Ouaknine.pdf" 
@@ -444,14 +447,13 @@
             </div>
 
             <div class="carousel-item">
-              <div class="row justify-content-center">
+              <div class="row justify-content-evenly">
                 <div class="col-2 text-center">
                   <i class="bi bi-quote"></i>
                 </div>
                 <div class="col-10">
                   <p class="text-muted">
-                    ...She also showed her ability to quickly learn new areas, particularly in image and signal processing.
-                    Furthermore, she exhibited maturity, autonomy, and rigor in presenting her results clearly and concisely.
+                    ...She also showed her ability to quickly learn new areas, particularly in image and signal processing. Furthermore, she exhibited maturity, autonomy, and rigor in presenting her results clearly and concisely.
                   </p>
                   <h4>Julien Wojak</h4>
                   <small class="fs-6 text-muted">Phd Research Engineer at CNRS</small>
@@ -468,7 +470,6 @@
 
           </div>
 
-          <!-- Carousel Controls -->
           <button
             class="nextprev-btn rounded-pill prev-btn"
             type="button"
@@ -487,17 +488,18 @@
             <i class="bi bi-arrow-right-circle-fill next"></i>
             <span class="visually-hidden">Next</span>
           </button>
-
+          
         </div>
       </div>
     </div>
-
+    
   </div>
 </section>
 <!-- testimonial ends here -->
 
 
-    <!-- blog section starts -->
+
+<!-- blog section starts -->
     <section class="blog mt-5 pb-5" id="blog">
       <div class="heading text-center pt-5">
         <h3> My Certifications</h3>
@@ -564,8 +566,8 @@
     </section>
     <!-- blog section ends here -->
 
-    <!-- creative section begins here -->
 
+    <!-- creative section begins here -->
 <section class="blog mt-5 pb-5" id="creative">
   <div class="heading text-center pt-5">
     <h3> My Creative Side</h3>
