@@ -567,7 +567,7 @@
     <!-- blog section ends here -->
 
 
-    <!-- creative section begins here -->
+  <!-- creative section begins here -->
 <section class="blog mt-5 pb-5" id="creative">
   <div class="heading text-center pt-5">
     <h3> My Creative Side</h3>
@@ -578,7 +578,7 @@
     <div class="row g-5 align-items-start">
       
       <!-- LEFT SIDE (Instagram) -->
-      <div class="col-md-6 text-center">
+      <div class="col-md-6 text-center creative-left p-4 rounded">
         <p>
           With a deep passion for music, I am an artist who enjoys singing and playing the guitar. 
           In fact, I had the privilege of performing at the 
@@ -593,30 +593,57 @@
       </div>
 
       <!-- RIGHT SIDE (TikTok) -->
-      <div class="col-md-6 text-center">
+      <div class="col-md-6 text-center creative-right p-4 rounded">
         <p>
           I also enjoy learning new instruments, such as the piano. 
           I love to express myself through notes and melodies.
           <br />
-          THIRD LINE TEST
+          Here's a short clip of me playing a piece on the piano.
         </p>
-<div class="text-center">
-  <blockquote class="tiktok-embed" 
-    cite="https://www.tiktok.com/@salmagirlie/video/7535594882392526086" 
-    data-video-id="7535594882392526086" 
-    style="max-width: 605px; min-width: 325px;">
-    <section> 
-      <a target="_blank" title="@salmagirlie" href="https://www.tiktok.com/@salmagirlie?refer=embed">@salmagirlie</a> 
-    </section> 
-  </blockquote> 
-</div>
-<script async src="https://www.tiktok.com/embed.js"></script>
+        <div class="text-center creative-embed">
+          <blockquote class="tiktok-embed" 
+            cite="https://www.tiktok.com/@salmagirlie/video/7535594882392526086" 
+            data-video-id="7535594882392526086" 
+            style="max-width: 100%; min-width: 325px;">
+            <section> 
+              <a target="_blank" title="@salmagirlie" href="https://www.tiktok.com/@salmagirlie?refer=embed">@salmagirlie</a> 
+            </section> 
+          </blockquote> 
+        </div>
+        <script async src="https://www.tiktok.com/embed.js"></script>
+      </div>
 
     </div>
   </div>
 </section>
-
 <!-- creative section ends here -->
+
+<style>
+  /* Gradient backgrounds for each side */
+  .creative-left {
+    background: linear-gradient(135deg, #fff3e0, #f7e8ff);
+  }
+  .creative-right {
+    background: linear-gradient(135deg, #6f34fe, #f7e8ff);
+    color: #fff; /* optional: better contrast for right side */
+  }
+
+  /* Padding and rounded corners */
+  .creative-left, .creative-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Ensure both embeds have same size */
+  .creative-embed {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+  }
+</style>
+
 
     <!-- contact section starts here -->
 <section class="contact mt-5 pt-5" id="contact">
